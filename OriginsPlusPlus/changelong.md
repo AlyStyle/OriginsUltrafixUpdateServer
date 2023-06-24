@@ -1,4 +1,4 @@
-## OriginsPlusPlus V1.0
+## OriginsPlusPlus V1
 
 SONIC 1
 - Life icons are accurate
