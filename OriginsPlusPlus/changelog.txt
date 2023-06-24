@@ -1,4 +1,4 @@
-ORIGINS++ CHANGE LOG
+ORIGINS++ CHANGE LOG V1
 
 SONIC 1
 - Life icons are accurate
