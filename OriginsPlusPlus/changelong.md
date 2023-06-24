@@ -1,7 +1,5 @@
 ## Origins++ V1.0.0 - First Release
 
-ORIGINS++ CHANGE LOG
-
 SONIC 1
 - Life icons are accurate
 - Knuckles' life icon and signpost is now based of KiS2
