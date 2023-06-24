@@ -1,2 +1,2 @@
-add mod.ini
 add changelog.txt
+add mod.ini
