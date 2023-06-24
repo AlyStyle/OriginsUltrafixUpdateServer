@@ -1,3 +1,4 @@
+add changelog.txt
 add /raw/text/text_gamegear_en.pac
 add /raw/text/text_option_en.pac
 add /Sonic1u/Data/Animations/Amy.ani
@@ -94,4 +95,3 @@ add /SonicCDu/Data/Sprites/Special/ScoreScreen_FR.gif
 add /SonicCDu/Data/Sprites/Special/ScoreScreen_IT.gif
 add /SonicCDu/Data/Sprites/Title/Title.gif
 add mod.ini
-add changelog.txt
