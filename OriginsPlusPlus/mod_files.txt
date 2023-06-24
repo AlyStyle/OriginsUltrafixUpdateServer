@@ -93,5 +93,5 @@ add /SonicCDu/Data/Sprites/Special/ScoreScreen_ES.gif
 add /SonicCDu/Data/Sprites/Special/ScoreScreen_FR.gif
 add /SonicCDu/Data/Sprites/Special/ScoreScreen_IT.gif
 add /SonicCDu/Data/Sprites/Title/Title.gif
-add changelog.txt
 add mod.ini
+add changelog.txt
