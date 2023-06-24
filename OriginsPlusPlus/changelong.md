@@ -40,7 +40,6 @@ SONIC 1
 - Fixed the Hammer Dash animation so it actually rotates
 
 
-
 SONIC 2
 - Eggman's glasses have been made blue
 - Life icons are accurate
