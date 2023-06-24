@@ -1,7 +1,7 @@
 ## Origins++ V1.0.0 - First Release
 
 SONIC 1
---Life icons are accurate
+- Life icons are accurate
 		Knuckles' life icon and signpost is now based of KiS2
 		COINS icon is now hardware limited
 		COINS icon is consistent between HUD and Monitors
