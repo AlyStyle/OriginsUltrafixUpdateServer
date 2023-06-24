@@ -1,5 +1,3 @@
-this is a test
-
 SONIC 1
 		Life icons are accurate
 		Knuckles' life icon and signpost is now based of KiS2
