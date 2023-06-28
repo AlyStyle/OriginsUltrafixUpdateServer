@@ -1,0 +1,81 @@
+{
+  "Groups": [
+
+    {
+      "Name": "Main",
+      "DisplayName": "Menus",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "Description": [
+            "Changes the names of the GAME GEAR games to match the Japanese version.'"
+          ],
+          "DisplayName": "JP Game Gear Names",
+          "Type": "GGNames",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off (Default)"
+        }
+      ]
+    },
+
+    {
+      "Name": "Main",
+      "DisplayName": "Sonic CD",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "Description": [
+            "Change the color of Metal Sonic's Eyes on sprites.'"
+          ],
+          "DisplayName": "Metal Sonic Eye Color",
+          "Type": "MetalSonic",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Red"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+
+    //Menu
+    "GGNames": [
+      {
+        "DisplayName": "On",
+        "Value": ".\\ModConfig\\GGNames\\",
+        "Description": [
+          "Changes the names to their Japanese variant (e.x: Sonic Blast is changed to G Sonic)"
+        ]
+      },
+      {
+        "DisplayName": "Off (Default)",
+        "Value": ".",
+        "Description": [
+          "The names are always their American/European variant (e.x: Sonic Blast is still Sonic Blast)"
+        ]
+      }
+    ],
+
+    //SCD
+    "MetalSonic": [
+      {
+        "DisplayName": "Red",
+        "Value": ".\\ModConfig\\MetalEyes\\",
+        "Description": [
+          "Sets Metal's Eye Color to RED"
+        ]
+      },
+      {
+        "DisplayName": "Grey",
+        "Value": ".",
+        "Description": [
+          "Sets Metal's Eye Color to GREY"
+        ]
+      }
+    ]
+
+
+  },
+  "IniFile": "mod.ini"
+}
