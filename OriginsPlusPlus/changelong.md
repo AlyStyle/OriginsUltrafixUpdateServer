@@ -1,3 +1,42 @@
+## OriginsPlusPlus V1.1
+TOGGLES
+- SONIC CD: Change Metal's eye color to red, as seen in all future appearances*
+- MENUS: Change the names of the Game Gear games to match the JP variants*
+
+SONIC 1
+- A missing color in Amy's Scrap Brain 3 Water Pal has been fixed*
+- Amy's life icon has been redone*
+
+SONIC 2
+- Amy's life icon has been redone*
+- Fixed a frame in Amy's Twirl animation that was facing the wrong way*
+- Amy's Spring Twirl now properly changes to the walk animation after two twirls, like the others*
+
+SONIC CD
+- Many of Knuckles' sprites have been fixed and tweaked to be closer to his S3 appearance and other Knuckles sprites*
+	This Includes...
+		-Shoe tweaks to a lot of sprites (mainly Mini Knuckles)*
+		-Changes to the shimmying sprites to make it more animated & consistent*
+		-The launcher sprites have been completely redone*
+		-The turntable sprites were modified to be more expressive*
+		-The rolling sprite for the 3D ramps has been tweaked to be more consistent with Sonic 3*
+- Fixes a color error in some of Knuckles' sprites making the black a dark green and white being pure white*
+- Changed Metal's eyes in D.A. Garden to be consistently grey*
+- HUD was touched up*
+- Knuckles and Amy's life icon has been redone*
+
+SONIC 3
+- Life text & HUD was touched up*
+- The act result names now have unique colors for each character*
+- The TIME and RINGS hud will no flash red, similar to the other 3 games*
+- Amy's life icon has been redone*
+- A bug causing the camera to not lock at the end of Ice Cap Act 2 has been fixed*
+
+ETC.
+- Premimum Music Tracks now say what games they are from in the music details*
+- The Museum character sprites now have the sprite fixes seen in the games
+
+
 ## OriginsPlusPlus V1
 
 SONIC 1
