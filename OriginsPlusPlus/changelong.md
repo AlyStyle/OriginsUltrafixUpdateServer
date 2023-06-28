@@ -14,7 +14,7 @@ SONIC 2
 
 SONIC CD
 - Many of Knuckles' sprites have been fixed and tweaked to be closer to his S3 appearance and other Knuckles sprites*
-	--This Includes...
+	-- This Includes...
 		-Shoe tweaks to a lot of sprites (mainly Mini Knuckles)*
 		-Changes to the shimmying sprites to make it more animated & consistent*
 		-The launcher sprites have been completely redone*
