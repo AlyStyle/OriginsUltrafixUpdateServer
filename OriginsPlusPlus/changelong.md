@@ -10,11 +10,11 @@ SONIC 1
 SONIC 2
 - Amy's life icon has been redone*
 - Fixed a frame in Amy's Twirl animation that was facing the wrong way*
-- Amy's Spring Twirl now properly changes to the walk animation after two twirls, like the others*
+- Amy's Spring Twirl now correctly changes to the walk animation after two twirls, like the others*
 
 SONIC CD
 - Many of Knuckles' sprites have been fixed and tweaked to be closer to his S3 appearance and other Knuckles sprites*
-	This Includes...
+	--This Includes...
 		-Shoe tweaks to a lot of sprites (mainly Mini Knuckles)*
 		-Changes to the shimmying sprites to make it more animated & consistent*
 		-The launcher sprites have been completely redone*
@@ -34,11 +34,10 @@ SONIC 3
 
 ETC.
 - Premium Music Tracks now say what games they are from in the music details*
-- The Museum character sprites now have the sprite fixes seen in the games
+- The Museum character sprites now have the sprite fixes seen in the games*
 
 
 ## OriginsPlusPlus V1
-
 SONIC 1
 - Life icons are accurate
 - Knuckles' life icon and signpost is now based of KiS2
@@ -49,13 +48,13 @@ SONIC 1
 - Shield sprites are more accurate
 - Super Stars use correct sprites
 - Eggman's sprites have been corrected
-- Eggman's deafeated frame has restored animations
+- Eggman's defeated frame has restored animations
 - Fixes a color error in some of Tails' sprites having incorrect transparent pixels
 - Fixes a color error in some of Knuckles' sprites making the black a dark green
 - Title emblem is now accurate
 - Final Zone's computer is not corrupted anymore
 - Palette issues have been fixed
-- Changes sonic's skid animation to be from S1, not CD
+- Changes Sonic's skid animation to be from S1, not CD
 - Fixes knuckles' shoes on his hanging sprite to not have broken shading
 - Restored a missing frame to Knuckles' hanging animation
 - Knuckles' life icon and signpost is now based of KiS2
@@ -64,12 +63,12 @@ SONIC 1
 - COINS' text is spaced properly
 - Monitors' bottom part is the same on both sides
 - Life text & HUD was touched up
-- Spinning signpost frames now all use full color range
+- Spinning signpost frames now all use full-color range
 - Eggman's signpost has closer shading to the original S1
-- SEGA text on title screen doesn't use brown shades anymore
+- SEGA text on the title screen doesn't use brown shades anymore
 - Eggman running scared animation has been fixed
 - Fixes knuckles' hanging sprite to have his right arm connected
-- Edited the Sound Test icon on the level select to fit more with Sonic 1 rather then 2
+- Edited the Sound Test icon on the level select to fit more with Sonic 1 rather than 2
 - General oddities in Sonic's Walking, Running, and Super Peel-Out animations
 - Fixed second Looking Up and Looking Down frames being messy and copied from Sonic 2
 - Fixed Squished nose in multiple sprites, like Walking, Running, and Super Peel-Out
@@ -92,10 +91,10 @@ SONIC 2
 - MPZ has proper palette cycle
 - WFZ has proper transparency
 - All WFZ tiles use their proper palette
-- The WFZ threadmill use its original palette
+- The WFZ treadmill uses its original palette
 - OOZ palette cycle is correct
 - Life text & HUD was touched up
-- Spinning signpost frames now all use full color range
+- Spinning signpost frames now all use full-color range
 - Spinning signpost frames use s2 signposts as a base
 - Monitors' bottom part is the same on both sides
 - COINS icon is now hardware limited
@@ -103,9 +102,9 @@ SONIC 2
 - COINS' text is spaced properly
 - Knuckles' life icon and signpost is now based of KiS2
 - CNZ colored bumpers don't flash anymore
-- OOZ now use purple instead of green 
+- OOZ now uses purple instead of green 
 - OOZ oil is properly affected by gravity (it doesn't go up anymore smh)
-- MPZ has more logical palette on some tiles
+- MPZ has a more logical palette on some tiles
 - Ending now has a limited palette
 - Fixes knuckles' shoes on his hanging sprite to not have broken shading
 - Restored a missing frame to Knuckles' hanging animation
@@ -119,11 +118,11 @@ SONIC CD
 - COINS icon is now hardware limited
 - COINS icon is consistent between HUD and Monitors
 - COINS' text is spaced properly
-- The title screen has been cleaned up and use the full resolution beta assets as a base
+- The title screen has been cleaned up and use the full-resolution beta assets as a base
 - COINS icon on hud is more CD Accurate	
 - Sonic and Tails' life icons on monitors is consistent with CD
 - Fixes a color error in some of Tails' sprites having incorrect transparent pixels
-- Fixed two red pixel on the Frozen Sonic sprite in R6
+- Fixed two red pixels on the Frozen Sonic sprite in R6
 - Signpost smear frames for Sonic being based on the prototype version of his signpost
 - New chibi sonic animations have been added (looking up, spring twirl, peelout)
 
