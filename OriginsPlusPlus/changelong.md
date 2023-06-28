@@ -28,12 +28,12 @@ SONIC CD
 SONIC 3
 - Life text & HUD was touched up*
 - The act result names now have unique colors for each character*
-- The TIME and RINGS hud will no flash red, similar to the other 3 games*
+- The TIME and RINGS hud will now flash red, similar to the other 3 games*
 - Amy's life icon has been redone*
 - A bug causing the camera to not lock at the end of Ice Cap Act 2 has been fixed*
 
 ETC.
-- Premimum Music Tracks now say what games they are from in the music details*
+- Premium Music Tracks now say what games they are from in the music details*
 - The Museum character sprites now have the sprite fixes seen in the games
 
 
