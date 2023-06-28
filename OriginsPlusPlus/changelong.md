@@ -14,12 +14,12 @@ SONIC 2
 
 SONIC CD
 - Many of Knuckles' sprites have been fixed and tweaked to be closer to his S3 appearance and other Knuckles sprites*
-	-- This Includes...
-		-Shoe tweaks to a lot of sprites (mainly Mini Knuckles)*
-		-Changes to the shimmying sprites to make it more animated & consistent*
-		-The launcher sprites have been completely redone*
-		-The turntable sprites were modified to be more expressive*
-		-The rolling sprite for the 3D ramps has been tweaked to be more consistent with Sonic 3*
+	- This Includes...
+		- Shoe tweaks to a lot of sprites (mainly Mini Knuckles)*
+		- Changes to the shimmying sprites to make it more animated & consistent*
+		- The launcher sprites have been completely redone*
+		- The turntable sprites were modified to be more expressive*
+		- The rolling sprite for the 3D ramps has been tweaked to be more consistent with Sonic 3*
 - Fixes a color error in some of Knuckles' sprites making the black a dark green and white being pure white*
 - Changed Metal's eyes in D.A. Garden to be consistently grey*
 - HUD was touched up*
