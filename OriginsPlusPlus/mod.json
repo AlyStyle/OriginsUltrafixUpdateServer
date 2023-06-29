@@ -3,6 +3,24 @@
 
     {
       "Name": "Main",
+      "DisplayName": "General",
+      "Elements": [
+        {
+          "Name": "IncludeDir2",
+          "Description": [
+            "Changes the color of Knuckles' cres to white, to match every other appearance of him'"
+          ],
+          "DisplayName": "White Cres Knuckles",
+          "Type": "WhiteCres",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "Off (Default)"
+        }
+      ]
+    },
+
+    {
+      "Name": "Main",
       "DisplayName": "Menus",
       "Elements": [
         {
@@ -38,6 +56,24 @@
     }
   ],
   "Enums": {
+
+    //Menu
+    "WhiteCres": [
+      {
+        "DisplayName": "On",
+        "Value": ".\\ModConfig\\WhiteCres\\",
+        "Description": [
+          "Changes Knuckles' Cres to White'"
+        ]
+      },
+      {
+        "DisplayName": "Off (Default)",
+        "Value": ".",
+        "Description": [
+          "Keeps Knuckles' Cres tan colored'"
+        ]
+      }
+    ],
 
     //Menu
     "GGNames": [
