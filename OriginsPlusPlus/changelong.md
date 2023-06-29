@@ -1,5 +1,4 @@
 ## OriginsPlusPlus V1.2
-A bug with blue objects sharing Sonic's colors has been fixed.
 TOGGLES
 - A new toggle has been added to change Knuckles' Cresent color to white
 
@@ -14,6 +13,8 @@ SONIC CD
 SONIC 3
 - Amy's level select sprite now uses the correct colors
 - Some of Knuckles' cutscene sprites have been fixed
+
+A bug with blue objects sharing Sonic's colors has been fixed.
   
 
 ## OriginsPlusPlus V1.1
