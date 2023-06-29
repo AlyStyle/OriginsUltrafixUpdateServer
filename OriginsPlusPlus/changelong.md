@@ -3,7 +3,7 @@ TOGGLES
 - A new toggle has been added to change Knuckles' Cresent color to white
 
 SONIC 1
--Knuckles fan rotate animation is now 5 frames, like the other characters
+- Knuckles fan rotate animation is now 5 frames, like the other characters
 
 SONIC CD
 - Title Screen Sonic's eye is now consistently black
