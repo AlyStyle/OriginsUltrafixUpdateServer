@@ -1,3 +1,21 @@
+## OriginsPlusPlus V1.2
+A bug with blue objects sharing Sonic's colors has been fixed.
+TOGGLES
+- A new toggle has been added to change Knuckles' Cresent color to white
+
+SONIC 1
+-Knuckles fan rotate animation is now 5 frames, like the other characters
+
+SONIC CD
+- Title Screen Sonic's eye is now consistently black
+- The SEGA copyright text is now the same as it was in the original Sonic CD
+- Knuckles has new Max Dash sprites (thanks Louplayer)
+
+SONIC 3
+- Amy's level select sprite now uses the correct colors
+- Some of Knuckles' cutscene sprites have been fixed
+  
+
 ## OriginsPlusPlus V1.1
 TOGGLES
 - SONIC CD: Change Metal's eye color to red, as seen in all future appearances*
