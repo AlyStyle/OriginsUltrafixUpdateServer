@@ -15,7 +15,6 @@ SONIC 3
 - Amy's level select sprite now uses the correct colors
 - Some of Knuckles' cutscene sprites have been fixed
 
-ETC.
 
 ## OriginsPlusPlus V1.1
 TOGGLES
