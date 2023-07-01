@@ -12,7 +12,6 @@ add /Sonic1u/Data/Sprites/LevelSelect/Text.gif
 add /Sonic1u/Data/Sprites/Players/KTE1.gif
 add /Sonic1u/Data/Sprites/Players/KTE2.gif
 add /Sonic1u/Data/Sprites/Players/KTE3.gif
-add /Sonic1u/Data/Sprites/Players/Sonic1.gif
 add /Sonic1u/Data/Sprites/Players/Sonic2.gif
 add /Sonic1u/Data/Sprites/Players/Tails1.gif
 add /Sonic1u/Data/Sprites/Players/Tails2.gif
@@ -116,3 +115,4 @@ add /raw/text/text_gamegear_en.pac
 add /raw/text/text_museum_en.pac
 add /raw/text/text_option_en.pac
 add mod.ini
+add /Sonic1u/Data/Sprites/Players/Sonic1.gif
