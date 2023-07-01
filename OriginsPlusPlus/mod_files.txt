@@ -115,5 +115,5 @@ add raw/dlc/dlc2/ui/ui_museum_chara_dlc2.pac
 add raw/text/text_gamegear_en.pac
 add raw/text/text_museum_en.pac
 add raw/text/text_option_en.pac
-add mod.json
 add mod.ini
+add mod.json
