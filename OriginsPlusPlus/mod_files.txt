@@ -91,8 +91,6 @@ add /SonicCDu/Data/Sprites/Special/ScoreScreen_ES.gif
 add /SonicCDu/Data/Sprites/Special/ScoreScreen_FR.gif
 add /SonicCDu/Data/Sprites/Special/ScoreScreen_IT.gif
 add /SonicCDu/Data/Sprites/Title/Title.gif
-add mod.ini
-add changelog.txt
 add /ModConfig/GGNames/raw/text/text_gamegear_en.pac
 add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/DAGarden/Objects.gif
 add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/Global/Items3.gif
@@ -117,4 +115,6 @@ add /raw/dlc/dlc2/ui/ui_museum_chara_dlc2.pac
 add /raw/text/text_gamegear_en.pac
 add /raw/text/text_museum_en.pac
 add /raw/text/text_option_en.pac
+add mod.ini
+add changelog.txt
 add mod.json
