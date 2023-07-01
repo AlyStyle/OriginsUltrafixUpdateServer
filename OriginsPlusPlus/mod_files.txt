@@ -1,3 +1,5 @@
+add /Sonic1u/
+add /Sonic2u/
 add /Sonic1u/Data/Animations/Amy.ani
 add /Sonic1u/Data/Animations/Knuckles.ani
 add /Sonic1u/Data/Animations/Sonic.ani
