@@ -1,93 +1,118 @@
-/Sonic1u/Data/Animations/Amy.ani
-/Sonic1u/Data/Animations/Knuckles.ani
-/Sonic1u/Data/Animations/Sonic.ani
-/Sonic1u/Data/Palette/SBZ3_WaterPal.act
-/Sonic1u/Data/Sprites/Global/Display.gif
-/Sonic1u/Data/Sprites/Global/Eggman.gif
-/Sonic1u/Data/Sprites/Global/Items.gif
-/Sonic1u/Data/Sprites/Global/Items2.gif
-/Sonic1u/Data/Sprites/Global/ItemsA.gif
-/Sonic1u/Data/Sprites/LevelSelect/Icons.gif
-/Sonic1u/Data/Sprites/LevelSelect/Text.gif
-/Sonic1u/Data/Sprites/Players/KTE1.gif
-/Sonic1u/Data/Sprites/Players/KTE2.gif
-/Sonic1u/Data/Sprites/Players/KTE3.gif
-/Sonic1u/Data/Sprites/Players/Sonic1.gif
-/Sonic1u/Data/Sprites/Players/Sonic2.gif
-/Sonic1u/Data/Sprites/Players/Tails1.gif
-/Sonic1u/Data/Sprites/Players/Tails2.gif
-/Sonic1u/Data/Sprites/SBZ/Objects.gif
-/Sonic1u/Data/Sprites/Special/Objects.gif
-/Sonic1u/Data/Sprites/Title/SonicTeam.gif
-/Sonic1u/Data/Sprites/Title/Title.gif
-/Sonic2u/Data/Animations/Amy.ani
-/Sonic2u/Data/Animations/Knuckles.ani
-/Sonic2u/Data/Animations/Sonic.ani
-/Sonic2u/Data/Sprites/CNZ/Objects.gif
-/Sonic2u/Data/Sprites/DEZ/Objects.gif
-/Sonic2u/Data/Sprites/EHZ/Objects.gif
-/Sonic2u/Data/Sprites/Global/Display.gif
-/Sonic2u/Data/Sprites/Global/EggMobile.gif
-/Sonic2u/Data/Sprites/Global/Items.gif
-/Sonic2u/Data/Sprites/Global/Items2.gif
-/Sonic2u/Data/Sprites/HPZ/Objects.gif
-/Sonic2u/Data/Sprites/HTZ/Objects.gif
-/Sonic2u/Data/Sprites/MCZ/Objects.gif
-/Sonic2u/Data/Sprites/MPZ/Objects.gif
-/Sonic2u/Data/Sprites/OOZ/Objects.gif
-/Sonic2u/Data/Sprites/Players/Amy3.gif
-/Sonic2u/Data/Sprites/Players/KTE1.gif
-/Sonic2u/Data/Sprites/Players/KTE2.gif
-/Sonic2u/Data/Sprites/Players/KTE3.gif
-/Sonic2u/Data/Sprites/Players/Sonic1.gif
-/Sonic2u/Data/Sprites/Players/Tails1.gif
-/Sonic2u/Data/Sprites/Players/Tails2.gif
-/Sonic2u/Data/Sprites/Players/Tails3.gif
-/Sonic2u/Data/Sprites/SCZ/Objects.gif
-/Sonic2u/Data/Sprites/Title/Title.gif
-/Sonic2u/Data/Stages/Zone04/16x16Tiles.gif
-/Sonic2u/Data/Stages/Zone07/128x128Tiles.bin
-/Sonic2u/Data/Stages/Zone07/16x16Tiles.gif
-/Sonic2u/Data/Stages/Zone09/16x16Tiles.gif
-/Sonic2u/Data/Stages/Zone11/16x16Tiles.gif
-/Sonic2u/Data/test.txt
-/Sonic3ku/Data/Sprites/3K_BlueSpheres/Menu.gif
-/Sonic3ku/Data/Sprites/3K_Global/Animals.gif
-/Sonic3ku/Data/Sprites/3K_Global/Display.gif
-/Sonic3ku/Data/Sprites/3K_Global/HUD.bin
-/Sonic3ku/Data/Sprites/3K_Global/Items.gif
-/Sonic3ku/Data/Sprites/3K_Players/Knux.gif
-/Sonic3ku/Data/Sprites/3K_Players/KnuxCutscene.gif
-/Sonic3ku/Data/Sprites/3K_Special/Objects.gif
-/Sonic3ku/Data/Sprites/LSelect/Icons.bin
-/Sonic3ku/Data/Stages/3K_ICZ2/Scene1.bin
-/SonicCDu/Data/Animations/Amy.ani
-/SonicCDu/Data/Animations/Knuckles.ani
-/SonicCDu/Data/Animations/Sonic.ani
-/SonicCDu/Data/Sprites/DAGarden/Objects.gif
-/SonicCDu/Data/Sprites/Global/Display.gif
-/SonicCDu/Data/Sprites/Global/Display_a.gif
-/SonicCDu/Data/Sprites/Global/Display_k.gif
-/SonicCDu/Data/Sprites/Global/Display_t.gif
-/SonicCDu/Data/Sprites/Global/Items.gif
-/SonicCDu/Data/Sprites/Global/Items2.gif
-/SonicCDu/Data/Sprites/Global/Items3.gif
-/SonicCDu/Data/Sprites/Players/KTE1.gif
-/SonicCDu/Data/Sprites/Players/KTE2.gif
-/SonicCDu/Data/Sprites/Players/KTE3.gif
-/SonicCDu/Data/Sprites/Players/KTE4.gif
-/SonicCDu/Data/Sprites/Players/KTE5.gif
-/SonicCDu/Data/Sprites/Players/Sonic1.gif
-/SonicCDu/Data/Sprites/Players/Sonic2.gif
-/SonicCDu/Data/Sprites/Players/Sonic3.gif
-/SonicCDu/Data/Sprites/Players/Sonic4.gif
-/SonicCDu/Data/Sprites/Players/Tails1.gif
-/SonicCDu/Data/Sprites/Players/Tails2.gif
-/SonicCDu/Data/Sprites/Players/Tails3.gif
-/SonicCDu/Data/Sprites/R6/Objects.gif
-/SonicCDu/Data/Sprites/Special/ScoreScreen.gif
-/SonicCDu/Data/Sprites/Special/ScoreScreen_DE.gif
-/SonicCDu/Data/Sprites/Special/ScoreScreen_ES.gif
-/SonicCDu/Data/Sprites/Special/ScoreScreen_FR.gif
-/SonicCDu/Data/Sprites/Special/ScoreScreen_IT.gif
-/SonicCDu/Data/Sprites/Title/Title.gif
+add /Sonic1u/Data/Animations/Amy.ani
+add /Sonic1u/Data/Animations/Knuckles.ani
+add /Sonic1u/Data/Animations/Sonic.ani
+add /Sonic1u/Data/Palette/SBZ3_WaterPal.act
+add /Sonic1u/Data/Sprites/Global/Display.gif
+add /Sonic1u/Data/Sprites/Global/Eggman.gif
+add /Sonic1u/Data/Sprites/Global/Items.gif
+add /Sonic1u/Data/Sprites/Global/Items2.gif
+add /Sonic1u/Data/Sprites/Global/ItemsA.gif
+add /Sonic1u/Data/Sprites/LevelSelect/Icons.gif
+add /Sonic1u/Data/Sprites/LevelSelect/Text.gif
+add /Sonic1u/Data/Sprites/Players/KTE1.gif
+add /Sonic1u/Data/Sprites/Players/KTE2.gif
+add /Sonic1u/Data/Sprites/Players/KTE3.gif
+add /Sonic1u/Data/Sprites/Players/Sonic1.gif
+add /Sonic1u/Data/Sprites/Players/Sonic2.gif
+add /Sonic1u/Data/Sprites/Players/Tails1.gif
+add /Sonic1u/Data/Sprites/Players/Tails2.gif
+add /Sonic1u/Data/Sprites/SBZ/Objects.gif
+add /Sonic1u/Data/Sprites/Special/Objects.gif
+add /Sonic1u/Data/Sprites/Title/SonicTeam.gif
+add /Sonic1u/Data/Sprites/Title/Title.gif
+add /Sonic2u/Data/Animations/Amy.ani
+add /Sonic2u/Data/Animations/Knuckles.ani
+add /Sonic2u/Data/Animations/Sonic.ani
+add /Sonic2u/Data/Sprites/CNZ/Objects.gif
+add /Sonic2u/Data/Sprites/DEZ/Objects.gif
+add /Sonic2u/Data/Sprites/EHZ/Objects.gif
+add /Sonic2u/Data/Sprites/Global/Display.gif
+add /Sonic2u/Data/Sprites/Global/EggMobile.gif
+add /Sonic2u/Data/Sprites/Global/Items.gif
+add /Sonic2u/Data/Sprites/Global/Items2.gif
+add /Sonic2u/Data/Sprites/HPZ/Objects.gif
+add /Sonic2u/Data/Sprites/HTZ/Objects.gif
+add /Sonic2u/Data/Sprites/MCZ/Objects.gif
+add /Sonic2u/Data/Sprites/MPZ/Objects.gif
+add /Sonic2u/Data/Sprites/OOZ/Objects.gif
+add /Sonic2u/Data/Sprites/Players/Amy3.gif
+add /Sonic2u/Data/Sprites/Players/KTE1.gif
+add /Sonic2u/Data/Sprites/Players/KTE2.gif
+add /Sonic2u/Data/Sprites/Players/KTE3.gif
+add /Sonic2u/Data/Sprites/Players/Sonic1.gif
+add /Sonic2u/Data/Sprites/Players/Tails1.gif
+add /Sonic2u/Data/Sprites/Players/Tails2.gif
+add /Sonic2u/Data/Sprites/Players/Tails3.gif
+add /Sonic2u/Data/Sprites/SCZ/Objects.gif
+add /Sonic2u/Data/Sprites/Title/Title.gif
+add /Sonic2u/Data/Stages/Zone04/16x16Tiles.gif
+add /Sonic2u/Data/Stages/Zone07/128x128Tiles.bin
+add /Sonic2u/Data/Stages/Zone07/16x16Tiles.gif
+add /Sonic2u/Data/Stages/Zone09/16x16Tiles.gif
+add /Sonic2u/Data/Stages/Zone11/16x16Tiles.gif
+add /Sonic2u/Data/test.txt
+add /Sonic3ku/Data/Sprites/3K_BlueSpheres/Menu.gif
+add /Sonic3ku/Data/Sprites/3K_Global/Animals.gif
+add /Sonic3ku/Data/Sprites/3K_Global/Display.gif
+add /Sonic3ku/Data/Sprites/3K_Global/HUD.bin
+add /Sonic3ku/Data/Sprites/3K_Global/Items.gif
+add /Sonic3ku/Data/Sprites/3K_Players/Knux.gif
+add /Sonic3ku/Data/Sprites/3K_Players/KnuxCutscene.gif
+add /Sonic3ku/Data/Sprites/3K_Special/Objects.gif
+add /Sonic3ku/Data/Sprites/LSelect/Icons.bin
+add /Sonic3ku/Data/Stages/3K_ICZ2/Scene1.bin
+add /SonicCDu/Data/Animations/Amy.ani
+add /SonicCDu/Data/Animations/Knuckles.ani
+add /SonicCDu/Data/Animations/Sonic.ani
+add /SonicCDu/Data/Sprites/DAGarden/Objects.gif
+add /SonicCDu/Data/Sprites/Global/Display.gif
+add /SonicCDu/Data/Sprites/Global/Display_a.gif
+add /SonicCDu/Data/Sprites/Global/Display_k.gif
+add /SonicCDu/Data/Sprites/Global/Display_t.gif
+add /SonicCDu/Data/Sprites/Global/Items.gif
+add /SonicCDu/Data/Sprites/Global/Items2.gif
+add /SonicCDu/Data/Sprites/Global/Items3.gif
+add /SonicCDu/Data/Sprites/Players/KTE1.gif
+add /SonicCDu/Data/Sprites/Players/KTE2.gif
+add /SonicCDu/Data/Sprites/Players/KTE3.gif
+add /SonicCDu/Data/Sprites/Players/KTE4.gif
+add /SonicCDu/Data/Sprites/Players/KTE5.gif
+add /SonicCDu/Data/Sprites/Players/Sonic1.gif
+add /SonicCDu/Data/Sprites/Players/Sonic2.gif
+add /SonicCDu/Data/Sprites/Players/Sonic3.gif
+add /SonicCDu/Data/Sprites/Players/Sonic4.gif
+add /SonicCDu/Data/Sprites/Players/Tails1.gif
+add /SonicCDu/Data/Sprites/Players/Tails2.gif
+add /SonicCDu/Data/Sprites/Players/Tails3.gif
+add /SonicCDu/Data/Sprites/R6/Objects.gif
+add /SonicCDu/Data/Sprites/Special/ScoreScreen.gif
+add /SonicCDu/Data/Sprites/Special/ScoreScreen_DE.gif
+add /SonicCDu/Data/Sprites/Special/ScoreScreen_ES.gif
+add /SonicCDu/Data/Sprites/Special/ScoreScreen_FR.gif
+add /SonicCDu/Data/Sprites/Special/ScoreScreen_IT.gif
+add /SonicCDu/Data/Sprites/Title/Title.gif
+add /ModConfig/GGNames/raw/text/text_gamegear_en.pac
+add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/DAGarden/Objects.gif
+add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/Global/Items3.gif
+add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/R7/Objects3.gif
+add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/Secrets/SecretImages.gif
+add /ModConfig/WhiteCres/Sonic1u/Data/Sprites/Players/KTE1.gif
+add /ModConfig/WhiteCres/Sonic1u/Data/Sprites/Players/KTE2.gif
+add /ModConfig/WhiteCres/Sonic1u/Data/Sprites/Players/KTE3.gif
+add /ModConfig/WhiteCres/Sonic2u/Data/Sprites/Players/KTE1.gif
+add /ModConfig/WhiteCres/Sonic2u/Data/Sprites/Players/KTE2.gif
+add /ModConfig/WhiteCres/Sonic2u/Data/Sprites/Players/KTE3.gif
+add /ModConfig/WhiteCres/Sonic3ku/Data/Sprites/3K_Players/KnucklesCutscene.gif
+add /ModConfig/WhiteCres/Sonic3ku/Data/Sprites/3K_Players/Knux.gif
+add /ModConfig/WhiteCres/Sonic3ku/Data/Sprites/3K_Players/KnuxCutscene.gif
+add /ModConfig/WhiteCres/SonicCDu/Data/Sprites/Players/KTE1.gif
+add /ModConfig/WhiteCres/SonicCDu/Data/Sprites/Players/KTE2.gif
+add /ModConfig/WhiteCres/SonicCDu/Data/Sprites/Players/KTE3.gif
+add /ModConfig/WhiteCres/SonicCDu/Data/Sprites/Players/KTE4.gif
+add /ModConfig/WhiteCres/SonicCDu/Data/Sprites/Players/KTE5.gif
+add /ModConfig/WhiteCres/SonicCDu/Data/Sprites/Special/Knuckles.gif
+add /raw/dlc/dlc2/ui/ui_museum_chara_dlc2.pac
+add /raw/text/text_gamegear_en.pac
+add /raw/text/text_museum_en.pac
+add /raw/text/text_option_en.pac
+add mod.ini
