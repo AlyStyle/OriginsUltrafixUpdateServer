@@ -1,4 +1,4 @@
-add /Sonic1u/
+add /Sonic1u/test.txt
 add /Sonic2u/
 add /Sonic1u/Data/Animations/Amy.ani
 add /Sonic1u/Data/Animations/Knuckles.ani
