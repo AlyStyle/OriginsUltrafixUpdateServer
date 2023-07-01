@@ -24,3 +24,4 @@ add raw/text/text_museum_en.pac
 add raw/text/text_option_en.pac
 add mod.json
 add mod.ini
+add mod.ini
