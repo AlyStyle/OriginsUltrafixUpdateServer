@@ -115,4 +115,4 @@ add /raw/text/text_gamegear_en.pac
 add /raw/text/text_museum_en.pac
 add /raw/text/text_option_en.pac
 add mod.ini
-add /Sonic1u/Data/Sprites/Players/Sonic1.gif
+add Sonic1u/Data/Sprites/Players/Sonic1.gif
