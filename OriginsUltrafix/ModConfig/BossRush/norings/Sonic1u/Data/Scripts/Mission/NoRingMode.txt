@@ -1,0 +1,43 @@
+// ----------------------------------
+// RSDK Project: Sonic 1
+// Script Description: NoRingMode Object
+// Script Author: Christian Whitehead/Simon Thomley
+// Unpacked by Rubberduckycooly's script unpacker
+// ----------------------------------
+
+// ========================
+// Events
+// ========================
+
+event ObjectUpdate
+	// change every Ring entity in the stage into a Blank Object
+	foreach (TypeName[Ring], arrayPos0, ALL_ENTITIES)
+		object[arrayPos0].type = TypeName[Blank Object]
+	next
+	
+	object.type = TypeName[Blank Object]
+end event
+
+
+event ObjectStartup
+	foreach (TypeName[NoRingMode], arrayPos0, ALL_ENTITIES)
+		object[arrayPos0].priority = PRIORITY_ACTIVE
+	next
+end event
+
+
+// ========================
+// Editor Events
+// ========================
+
+event RSDKDraw
+	DrawSprite(0)
+end event
+
+
+event RSDKLoad
+	LoadSpriteSheet("Global/Items.gif")
+	SpriteFrame(-8, -8, 16, 16, 1, 1)
+	
+	SetVariableAlias(ALIAS_VAR_PROPVAL, "unused")
+end event

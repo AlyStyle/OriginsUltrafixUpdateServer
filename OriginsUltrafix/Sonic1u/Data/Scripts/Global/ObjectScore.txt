@@ -1,0 +1,207 @@
+// ----------------------------------
+// RSDK Project: Sonic 1
+// Script Description: Object Score Object
+// Script Author: Christian Whitehead/Simon Thomley
+// Unpacked by Rubberduckycooly's script unpacker
+// ----------------------------------
+
+// ========================
+// Aliases
+// ========================
+
+private alias object.propertyValue : object.delay
+
+private alias object.value0 : object.timer // its this in ANIMAL_WAIT
+private alias object.value0 : object.bounceDir // its this in every other state
+private alias object.value1 : object.randomizeDir
+private alias object.value2 : object.isPocky
+
+private alias 0 : ANIMAL_WAIT
+private alias 1 : ANIMAL_FALL
+private alias 2 : ANIMAL_BOUNCING_PLACED
+private alias 3 : ANIMAL_BOUNCING_FIXED
+private alias 4 : ANIMAL_BOUNCING_FOLLOW
+private alias 5 : ANIMAL_BOUNCING_FREE
+
+private alias  0x20000 : ANIMAL_XVEL
+private alias -0x40000 : ANIMAL_YVEL
+
+// Player Aliases
+private alias object.xpos : player.xpos
+
+// Path ID Aliases
+private alias 0 : PATH_A
+
+
+// ========================
+// Events
+// ========================
+
+event ObjectUpdate
+	if object.isPocky == false
+		object.ypos -= 0x20000
+		object.timer++
+		if object.timer == 24
+			object.type = TypeName[Blank Object]
+		end if
+	else
+		switch object.state
+		case ANIMAL_WAIT
+			if object.timer < object.delay
+				object.timer++
+			else
+				object.xvel = ANIMAL_XVEL
+
+				if object.randomizeDir == true
+					object.drawOrder = 4
+
+					Rand(checkResult, 32)
+					if checkResult < 16
+						object.direction = FACING_LEFT
+						FlipSign(object.xvel)
+					end if
+				else
+					object.direction = FACING_LEFT
+					FlipSign(object.xvel)
+				end if
+
+				object.yvel = ANIMAL_YVEL
+				object.state++
+			end if
+			break
+
+		case ANIMAL_FALL
+			object.ypos += object.yvel
+			object.yvel += 0x3800
+			if object.yvel > 0
+				ObjectTileCollision(CSIDE_FLOOR, 0, 12, PATH_A)
+				if checkResult == true
+					object.yvel = ANIMAL_YVEL
+					object.state++
+				end if
+			end if
+			break
+
+		case ANIMAL_BOUNCING_FOLLOW
+			if player[0].xpos < object.xpos
+				object.direction = FACING_LEFT
+			else
+				object.direction = FACING_RIGHT
+			end if
+		// [Fallthrough]
+		case ANIMAL_BOUNCING_PLACED
+		case ANIMAL_BOUNCING_FIXED
+		case ANIMAL_BOUNCING_FREE
+			object.xpos += object.xvel
+			object.ypos += object.yvel
+			object.yvel += 0x3800
+			
+			if object.yvel > 0
+				ObjectTileCollision(CSIDE_FLOOR, 0, 12, PATH_A)
+				if checkResult == true
+					if object.state == ANIMAL_BOUNCING_FIXED
+						if object.bounceDir == FACING_LEFT
+							FlipSign(object.xvel)
+							object.direction ^= FACING_LEFT
+						end if
+						
+						object.bounceDir ^= FACING_LEFT
+					end if
+
+					object.yvel = ANIMAL_YVEL
+				end if
+			end if
+			break
+			
+		end switch
+		
+		if object.state < ANIMAL_BOUNCING_FIXED
+			if object.outOfBounds == true
+				object.type = TypeName[Blank Object]
+			end if
+		end if
+	end if
+end event
+
+
+event ObjectDraw
+	if object.isPocky == false
+#platform: USE_ORIGINS
+		if game.playMode == BOOT_PLAYMODE_MIRRORING
+			object.direction = FACING_LEFT
+			DrawSpriteFX(object.propertyValue, FX_FLIP, object.xpos, object.ypos)
+		else
+			DrawSprite(object.propertyValue)
+		end if
+#endplatform
+
+#platform: USE_STANDALONE
+		DrawSprite(object.propertyValue)
+#endplatform
+	else
+		switch object.state
+		case ANIMAL_WAIT
+		case ANIMAL_FALL
+			DrawSprite(19)
+			break
+
+		case ANIMAL_BOUNCING_PLACED
+		case ANIMAL_BOUNCING_FIXED
+		case ANIMAL_BOUNCING_FOLLOW
+		case ANIMAL_BOUNCING_FREE
+			if object.yvel < 0
+				DrawSpriteFX(17, FX_FLIP, object.xpos, object.ypos)
+			else
+				DrawSpriteFX(18, FX_FLIP, object.xpos, object.ypos)
+			end if
+			break
+			
+		end switch
+	end if
+end event
+
+
+event ObjectStartup
+	LoadSpriteSheet("Global/Items.gif")
+	
+	SpriteFrame(-6, 0, 14, 8, 193, 226)
+	SpriteFrame(-7, 0, 15, 8, 240, 197)
+	SpriteFrame(-7, 0, 15, 8, 224, 197)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-9, 0, 19, 8, 193, 226)
+	SpriteFrame(-12, 0, 24, 8, 193, 226)
+	SpriteFrame(-4, 0, 9, 8, 193, 226)
+	
+	// Pocky
+	SpriteFrame(-8, -12, 16, 24, 183, 26)
+	SpriteFrame(-8, -12, 16, 24, 183, 51)
+	SpriteFrame(-7, -12, 16, 24, 183, 1)
+end event
+
+
+// ========================
+// Editor Events
+// ========================
+
+event RSDKDraw
+	DrawSprite(0)
+end event
+
+
+event RSDKLoad
+	LoadSpriteSheet("Global/Items.gif")
+	SpriteFrame(-6, 0, 14, 8, 193, 226)
+	
+	// used in-game, but shouldn't be placed in editor so
+	SetVariableAlias(ALIAS_VAR_PROPVAL, "unused")
+end event
