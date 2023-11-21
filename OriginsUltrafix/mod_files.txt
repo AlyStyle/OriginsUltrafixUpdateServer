@@ -213,3 +213,4 @@ add Sonic1u/Data/Stages/Zone01/CollisionMasks.bin
 add Sonic1u/Data/Stages/Zone01/StageConfig.bin
 add Sonic1u/Data/Stages/Zone04/Act1.bin
 add Sonic1u/Data/Stages/Zone06/Act5.bin
+add mod.ini
