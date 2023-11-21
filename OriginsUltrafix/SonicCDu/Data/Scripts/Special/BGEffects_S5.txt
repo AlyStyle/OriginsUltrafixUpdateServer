@@ -1,0 +1,354 @@
+//-----------------Sonic CD BGEffects Script------------------//
+//--------Scripted by Christian Whitehead 'The Taxman'--------//
+//-------Unpacked By Rubberduckycooly's Script Unpacker-------//
+
+// Aliases
+// Values 0-1 are unused...
+#alias Object.Value2 : Object.PrevAngle
+#alias Object.Value3 : Object.FansTimer
+#alias Object.Value4 : Object.CrunchersTimer
+#alias Object.Value5 : Object.FansSprite
+#alias Object.Value6 : Object.CrunchersSprite
+
+// Priority
+#alias 1 : PRIORITY_ACTIVE
+
+
+sub ObjectDraw
+	// Animate the Fan tiles throughout the level
+	Object.FansTimer++
+	if Object.FansTimer > 2
+		Object.FansTimer = 0
+		Object.FansSprite++
+		Object.FansSprite %= 3
+		switch Object.FansSprite
+		case 0
+			// Fans are 4x4 tiles, comprised of 8 unique tiles, so
+			// 8 individual tiles need to be updated to change the entire sprite
+			Copy16x16Tile(174, 472)
+			Copy16x16Tile(175, 473)
+			Copy16x16Tile(176, 474)
+			Copy16x16Tile(177, 475)
+			Copy16x16Tile(183, 476)
+			Copy16x16Tile(184, 477)
+			Copy16x16Tile(185, 478)
+			Copy16x16Tile(186, 479)
+			break
+			
+		case 1
+			Copy16x16Tile(174, 480)
+			Copy16x16Tile(175, 481)
+			Copy16x16Tile(176, 482)
+			Copy16x16Tile(177, 483)
+			Copy16x16Tile(183, 484)
+			Copy16x16Tile(184, 485)
+			Copy16x16Tile(185, 486)
+			Copy16x16Tile(186, 487)
+			break
+			
+		case 2
+			Copy16x16Tile(174, 488)
+			Copy16x16Tile(175, 489)
+			Copy16x16Tile(176, 490)
+			Copy16x16Tile(177, 491)
+			Copy16x16Tile(183, 492)
+			Copy16x16Tile(184, 493)
+			Copy16x16Tile(185, 494)
+			Copy16x16Tile(186, 495)
+			break
+			
+		end switch
+	end if
+	
+	// Animate the Crunching tiles in the level
+	Object.CrunchersTimer++
+	if Object.CrunchersTimer > 5
+		Object.CrunchersTimer = 0
+		Object.CrunchersSprite++
+		Object.CrunchersSprite &= 3
+		switch Object.CrunchersSprite
+		case 0
+			// Crunchers are 2x2 tiles, each tile unique,
+			// so 4 tiles need to be updated in order to completely change their sprite
+			Copy16x16Tile(76, 496)
+			Copy16x16Tile(77, 497)
+			Copy16x16Tile(82, 500)
+			Copy16x16Tile(83, 501)
+			break
+			
+		case 1
+			Copy16x16Tile(76, 498)
+			Copy16x16Tile(77, 499)
+			Copy16x16Tile(82, 502)
+			Copy16x16Tile(83, 503)
+			break
+			
+		case 2
+			Copy16x16Tile(76, 504)
+			Copy16x16Tile(77, 505)
+			Copy16x16Tile(82, 508)
+			Copy16x16Tile(83, 509)
+			break
+			
+		case 3
+			Copy16x16Tile(76, 506)
+			Copy16x16Tile(77, 507)
+			Copy16x16Tile(82, 510)
+			Copy16x16Tile(83, 511)
+			break
+			
+		end switch
+	end if
+	
+	// Find the difference from the last and current scroll pos
+	TempValue1 = Object.PrevAngle
+	TempValue2 = TileLayer[0].Angle
+	
+	// Acount for looping before doing the actual calculations
+	if TempValue1 < TempValue2
+		TempValue3 = TempValue2
+		TempValue3 -= TempValue1
+		if TempValue3 > 256
+			TempValue1 += 512
+		end if
+	else
+		TempValue3 = TempValue1
+		TempValue3 -= TempValue2
+		if TempValue3 > 256
+			TempValue2 += 512
+		end if
+	end if
+	
+	// The actual finding of the difference
+	TempValue0 = TempValue1
+	TempValue0 -= TempValue2
+	
+	// Store the current scroll pos for use next frame
+	Object.PrevAngle = TileLayer[0].Angle
+	
+	// Move the buildings BG layer based on the difference found
+	TempValue1 = 0x15555
+	TempValue1 *= TempValue0
+	HParallax[0].ScrollPos += TempValue1
+	
+	// Get scroll offset for red bars
+	TempValue1 = 0x20000
+	TempValue1 *= TempValue0
+	HParallax[2].ScrollPos += TempValue1
+	HParallax[2].ScrollPos %= 0x600000
+	
+	// Set the base position of the BG red bars
+	TempValue0 = 512 
+	TempValue1 = Screen.XSize
+	TempValue1 >>= 1
+	TempValue0 -= TempValue1
+	TempValue0 <<= 16
+	TempValue0 += HParallax[2].ScrollPos
+	HParallax[1].ScrollPos = TempValue0
+	
+	// Now, update the pseudo-3d-ness of the BG red bars using deformation
+	TempValue0 = HParallax[2].ScrollPos
+	TempValue0 >>= 16
+	ArrayPos0 = 17
+	while ArrayPos0 < 128
+		TempValue1 = Stage.DeformationData3[ArrayPos0]
+		TempValue1 *= TempValue0
+		TempValue1 -= HParallax[2].ScrollPos
+#platform: HW_Rendering
+		TempValue1 >>= 12
+#endplatform
+		
+#platform: SW_Rendering
+		TempValue1 >>= 16
+#endplatform
+		Stage.DeformationData2[ArrayPos0] = TempValue1
+		ArrayPos0++
+	loop
+	
+#platform: HW_Rendering
+	// If using the hardware render, draw the BG as a sprite & rect here
+	DrawSpriteScreenFX(0, FX_SCALE, 0, 0)
+	
+	// Draw a black rectagle across the screen
+	DrawRect(296, 0, 256, 128, 0, 0, 0, 255)
+#endplatform
+	
+end sub
+
+
+sub ObjectStartup
+	// Set the stage's bounds
+	Stage.XBoundary1 = 0x3000000 // left bounds  @ 768 pixels
+	Stage.XBoundary2 = 0xD000000 // right bounds @ 3328 pixels
+	Stage.YBoundary1 = 0x3000000 // upper bounds @ 768 pixels
+	Stage.YBoundary2 = 0xD000000 // lower bounds @ 3328 pixels
+	
+#platform: HW_Rendering
+	// If needed, do some setup for hardware rendering
+	LoadSpriteSheet("Special/SSMap5.gif")
+	
+	// Seems to be a random patch in the middle of nowhere?
+	SpriteFrame(0, 0, 32, 48, 107, 384)
+#endplatform
+	
+	// Set the buildings starting scroll position, but with respect to the screen's size to make it start in the right place
+	TempValue0 = Screen.XSize
+	TempValue0 -= 512
+	TempValue0 <<= 15
+	HParallax[0].ScrollPos = 0x800000
+	HParallax[0].ScrollPos -= TempValue0
+	
+	// Let's cheat, use the underwater deformation table for calculating the background scroll offsets
+	Stage.DeformationData3[17] = 0x00A2AA
+	Stage.DeformationData3[18] = 0x00A555
+	Stage.DeformationData3[19] = 0x00A800
+	Stage.DeformationData3[20] = 0x00AAAA
+	Stage.DeformationData3[21] = 0x00AAAA
+	Stage.DeformationData3[22] = 0x00AD55
+	Stage.DeformationData3[23] = 0x00AD55
+	Stage.DeformationData3[24] = 0x00B000
+	Stage.DeformationData3[25] = 0x00B2AA
+	Stage.DeformationData3[26] = 0x00B2AA
+	Stage.DeformationData3[27] = 0x00B555
+	Stage.DeformationData3[28] = 0x00B800
+	Stage.DeformationData3[29] = 0x00B800
+	Stage.DeformationData3[30] = 0x00BAAA
+	Stage.DeformationData3[31] = 0x00BAAA
+	Stage.DeformationData3[32] = 0x00BD55
+	Stage.DeformationData3[33] = 0x00BD55
+	Stage.DeformationData3[34] = 0x00C000
+	Stage.DeformationData3[35] = 0x00C2AA
+	Stage.DeformationData3[36] = 0x00C2AA
+	Stage.DeformationData3[37] = 0x00C555
+	Stage.DeformationData3[38] = 0x00C555
+	Stage.DeformationData3[39] = 0x00C800
+	Stage.DeformationData3[40] = 0x00C800
+	Stage.DeformationData3[41] = 0x00CAAA
+	Stage.DeformationData3[42] = 0x00CAAA
+	Stage.DeformationData3[43] = 0x00CD55
+	Stage.DeformationData3[44] = 0x00CD55
+	Stage.DeformationData3[45] = 0x00D000
+	Stage.DeformationData3[46] = 0x00D000
+	Stage.DeformationData3[47] = 0x00D2AA
+	Stage.DeformationData3[48] = 0x00D2AA
+	Stage.DeformationData3[49] = 0x00D2AA
+	Stage.DeformationData3[50] = 0x00D555
+	Stage.DeformationData3[51] = 0x00D555
+	Stage.DeformationData3[52] = 0x00D800
+	Stage.DeformationData3[53] = 0x00D800
+	Stage.DeformationData3[54] = 0x00DAAA
+	Stage.DeformationData3[55] = 0x00DAAA
+	Stage.DeformationData3[56] = 0x00DAAA
+	Stage.DeformationData3[57] = 0x00DD55
+	Stage.DeformationData3[58] = 0x00DD55
+	Stage.DeformationData3[59] = 0x00E000
+	Stage.DeformationData3[60] = 0x00E000
+	Stage.DeformationData3[61] = 0x00E000
+	Stage.DeformationData3[62] = 0x00E2AA
+	Stage.DeformationData3[63] = 0x00E2AA
+	Stage.DeformationData3[64] = 0x00E2AA
+	Stage.DeformationData3[65] = 0x00E555
+	Stage.DeformationData3[66] = 0x00E555
+	Stage.DeformationData3[67] = 0x00E555
+	Stage.DeformationData3[68] = 0x00E800
+	Stage.DeformationData3[69] = 0x00E800
+	Stage.DeformationData3[70] = 0x00E800
+	Stage.DeformationData3[71] = 0x00EAAA
+	Stage.DeformationData3[72] = 0x00EAAA
+	Stage.DeformationData3[73] = 0x00EAAA
+	Stage.DeformationData3[74] = 0x00ED55
+	Stage.DeformationData3[75] = 0x00ED55
+	Stage.DeformationData3[76] = 0x00ED55
+	Stage.DeformationData3[77] = 0x00ED55
+	Stage.DeformationData3[78] = 0x00F000
+	Stage.DeformationData3[79] = 0x00F000
+	Stage.DeformationData3[80] = 0x00F000
+	Stage.DeformationData3[81] = 0x00F000
+	Stage.DeformationData3[82] = 0x00F2AA
+	Stage.DeformationData3[83] = 0x00F2AA
+	Stage.DeformationData3[84] = 0x00F2AA
+	Stage.DeformationData3[85] = 0x00F2AA
+	Stage.DeformationData3[86] = 0x00F555
+	Stage.DeformationData3[87] = 0x00F555
+	Stage.DeformationData3[88] = 0x00F555
+	Stage.DeformationData3[89] = 0x00F555
+	Stage.DeformationData3[90] = 0x00F555
+	Stage.DeformationData3[91] = 0x00F800
+	Stage.DeformationData3[92] = 0x00F800
+	Stage.DeformationData3[93] = 0x00F800
+	Stage.DeformationData3[94] = 0x00F800
+	Stage.DeformationData3[95] = 0x00F800
+	Stage.DeformationData3[96] = 0x00F800
+	Stage.DeformationData3[97] = 0x00FAAA
+	Stage.DeformationData3[98] = 0x00FAAA
+	Stage.DeformationData3[99] = 0x00FAAA
+	Stage.DeformationData3[100] = 0x00FAAA
+	Stage.DeformationData3[101] = 0x00FAAA
+	Stage.DeformationData3[102] = 0x00FAAA
+	Stage.DeformationData3[103] = 0x00FAAA
+	Stage.DeformationData3[104] = 0x00FD55
+	Stage.DeformationData3[105] = 0x00FD55
+	Stage.DeformationData3[106] = 0x00FD55
+	Stage.DeformationData3[107] = 0x00FD55
+	Stage.DeformationData3[108] = 0x00FD55
+	Stage.DeformationData3[109] = 0x00FD55
+	Stage.DeformationData3[110] = 0x00FD55
+	Stage.DeformationData3[111] = 0x00FD55
+	Stage.DeformationData3[112] = 0x00FD55
+	Stage.DeformationData3[113] = 0x00FD55
+	Stage.DeformationData3[114] = 0x010000
+	Stage.DeformationData3[115] = 0x010000
+	Stage.DeformationData3[116] = 0x010000
+	Stage.DeformationData3[117] = 0x010000
+	Stage.DeformationData3[118] = 0x010000
+	Stage.DeformationData3[119] = 0x010000
+	Stage.DeformationData3[120] = 0x010000
+	Stage.DeformationData3[121] = 0x010000
+	Stage.DeformationData3[122] = 0x010000
+	Stage.DeformationData3[123] = 0x010000
+	Stage.DeformationData3[124] = 0x010000
+	Stage.DeformationData3[125] = 0x010000
+	Stage.DeformationData3[126] = 0x010000
+	Stage.DeformationData3[127] = 0x010000
+	
+	// Setup all BGEffect objects in the level
+	ArrayPos0 = 32
+	while ArrayPos0 < 1056
+		if Object[ArrayPos0].Type == TypeName[BGEffects]
+			
+			// Make it always active
+			Object[ArrayPos0].Priority = PRIORITY_ACTIVE
+			
+			// It should the first object to have its draw code run
+			Object[ArrayPos0].DrawOrder = 0
+			
+			// Set the starting angle... but why is this 192? All other ones are 368 instead...
+			Object[ArrayPos0].PrevAngle = 192
+			
+			// Set the scale for the object to draw at
+			// (Only used for hardware rendering)
+			Object[ArrayPos0].Scale = 1536
+			
+		end if
+		
+		ArrayPos0++
+	loop
+	
+end sub
+
+
+// ========================
+// Editor Subs
+// ========================
+
+sub RSDKDraw
+	DrawSprite(0)
+end sub
+
+
+sub RSDKLoad
+	LoadSpriteSheet("Special/SSMap5.gif")
+	SpriteFrame(-256, -256, 512, 512, 0, 0)
+
+	SetVariableAlias(ALIAS_VAR_PROPVAL, "unused")
+end sub
