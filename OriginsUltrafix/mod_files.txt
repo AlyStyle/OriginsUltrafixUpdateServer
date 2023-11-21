@@ -40,8 +40,8 @@ add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/Act3.bin
 add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/Backgrounds.bin
 add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/CollisionMasks.bin
 add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/StageConfig.bin
-add ModConfig/BossRush/jpbossnamesadd raw/text/text_common_en.pac
-add ModConfig/BossRush/noringsadd Sonic1u/Data/Scripts/Mission/NoRingMode.txt
+add ModConfig/BossRush/jpbossnames/raw/text/text_common_en.pac
+add ModConfig/BossRush/norings/Sonic1u/Data/Scripts/Mission/NoRingMode.txt
 add ModConfig/BossRush/norings/Sonic2u/Data/Scripts/Mission/NoRingMode.txt
 add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR1_3K_AIZ2/Scene2.bin
 add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR2_3K_HCZ2/Scene2.bin
@@ -56,34 +56,34 @@ add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRA_3K_LRZB/Scene1.bin
 add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRB_3K_DEZB/Scene1.bin
 add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRC_3K_SSZ2/Scene1.bin
 add ModConfig/BossRush/norings/SonicCDu/Data/Scripts/Mission/NoRingMode.txt
-add ModConfig/DebugControl3Kadd Sonic1u/Data/Scripts/Global/DebugMode.txt
+add ModConfig/DebugControl3K/Sonic1u/Data/Scripts/Global/DebugMode.txt
 add ModConfig/DebugControl3K/Sonic2u/Data/Scripts/Global/DebugMode.txt
 add ModConfig/DebugControl3K/SonicCDu/Data/Scripts/Global/TouchControls.txt
-add ModConfig/DebugCoords3Kadd Sonic1u/Data/Scripts/Global/HUD.txt
+add ModConfig/DebugCoords3K/Sonic1u/Data/Scripts/Global/HUD.txt
 add ModConfig/DebugCoords3K/Sonic2u/Data/Scripts/Global/HUD.txt
 add ModConfig/DebugCoords3K/SonicCDu/Data/Scripts/Global/HUD.txt
 add ModConfig/Default/dummy.txt
-add ModConfig/GGNamesadd raw/text/text_gamegear_en.pac
+add ModConfig/GGNames/raw/text/text_gamegear_en.pac
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/DAGarden/Objects.gif
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/Global/Items3.gif
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/R7/Objects3.gif
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/Secrets/SecretImages.gif
-add ModConfig/UltrafixLogoadd raw/ui/menu_title_logo.dds
-add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_de.pac
-add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_en.pac
-add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_es.pac
-add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_fr.pac
-add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_it.pac
-add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_ja.pac
-add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_ko.pac
-add ModConfig/MenuChars/s1add raw/ui/ui_gamestage.pac
-add ModConfig/MenuChars/s1add raw/ui/ui_mainmenu.pac
-add ModConfig/MenuChars/s2add raw/ui/ui_gamestage.pac
-add ModConfig/MenuChars/s2add raw/ui/ui_mainmenu.pac
-add ModConfig/MenuChars/s3kadd raw/ui/ui_gamestage.pac
-add ModConfig/MenuChars/s3kadd raw/ui/ui_mainmenu.pac
-add ModConfig/MenuChars/scdadd raw/ui/ui_gamestage.pac
-add ModConfig/MenuChars/scdadd raw/ui/ui_mainmenu.pac
+add ModConfig/UltrafixLogo/raw/ui/menu_title_logo.dds
+add ModConfig/UltrafixLogo/raw/ui/ui_mainmenu_de.pac
+add ModConfig/UltrafixLogo/raw/ui/ui_mainmenu_en.pac
+add ModConfig/UltrafixLogo/raw/ui/ui_mainmenu_es.pac
+add ModConfig/UltrafixLogo/raw/ui/ui_mainmenu_fr.pac
+add ModConfig/UltrafixLogo/raw/ui/ui_mainmenu_it.pac
+add ModConfig/UltrafixLogo/raw/ui/ui_mainmenu_ja.pac
+add ModConfig/UltrafixLogo/raw/ui/ui_mainmenu_ko.pac
+add ModConfig/MenuChars/s1/raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/s1/raw/ui/ui_mainmenu.pac
+add ModConfig/MenuChars/s2/raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/s2/raw/ui/ui_mainmenu.pac
+add ModConfig/MenuChars/s3k/raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/s3k/raw/ui/ui_mainmenu.pac
+add ModConfig/MenuChars/scd/raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/scd/raw/ui/ui_mainmenu.pac
 add raw/dlc/dlc2/ui/ui_museum_chara_dlc2.pac
 add raw/text/text_gamegear_en.pac
 add raw/text/text_museum_en.pac
@@ -213,4 +213,3 @@ add Sonic1u/Data/Stages/Zone01/CollisionMasks.bin
 add Sonic1u/Data/Stages/Zone01/StageConfig.bin
 add Sonic1u/Data/Stages/Zone04/Act1.bin
 add Sonic1u/Data/Stages/Zone06/Act5.bin
-add mod.ini
