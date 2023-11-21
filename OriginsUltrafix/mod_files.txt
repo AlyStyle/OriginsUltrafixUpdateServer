@@ -3,7 +3,7 @@ add raw/text/text_gamegear_en.pac
 add raw/text/text_museum_en.pac
 add raw/ui/ui_museum_item_texture_l_art16.pac
 add raw/ui/ui_museum_item_texture_l_art17.pac
-add raw/ui/ui_museum_item_texture_l_art18.pac
+add raw/ui/ui_museum_item_texture_l_art32.pac
 add Sonic1u/Data/Animations/Amy.ani
 add Sonic1u/Data/Animations/Knuckles.ani
 add Sonic1u/Data/Animations/Sonic.ani
