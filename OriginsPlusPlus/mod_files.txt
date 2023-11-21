@@ -115,5 +115,4 @@ delete SonicCDu/Data/Sprites/Special/ScoreScreen_ES.gif
 delete SonicCDu/Data/Sprites/Special/ScoreScreen_FR.gif
 delete SonicCDu/Data/Sprites/Special/ScoreScreen_IT.gif
 delete SonicCDu/Data/Sprites/Title/Title.gif
-add mod.ini
-add mod.json
+
