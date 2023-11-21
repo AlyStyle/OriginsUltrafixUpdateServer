@@ -2,7 +2,7 @@
 
 ### GENERAL
 - Added custom version string - dictates the version of Ultrafix being used
-- OriginsPlayerPatcher by SuperSonic16 is now a depency for this mod
+- OriginsPlayerPatcher by SuperSonic16 is now a dependency for this mod
 - Arrow keys can now be used for player movement in all games! (except Game Gear) (code fix)
 - The continue/ranking character icons on the main menu now use sprites based on the life icons
 - Tails' sprites have been tweaked in all games, fixing inconsistent sprite pivots, incorrect colors, and layering and placement of his tails on certain sprites
