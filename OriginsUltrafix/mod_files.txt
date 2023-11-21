@@ -1,215 +1,216 @@
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/128x128Tiles.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/16x16Tiles.gif
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/Act3.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/Backgrounds.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/CollisionMasks.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/StageConfig.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/128x128Tiles.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/16x16Tiles.gif
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/Act3.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/Backgrounds.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/CollisionMasks.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/StageConfig.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/128x128Tiles.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/16x16Tiles.gif
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/Act3.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/Backgrounds.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/CollisionMasks.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/StageConfig.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/128x128Tiles.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/16x16Tiles.gif
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/Act3.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/Backgrounds.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/CollisionMasks.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/StageConfig.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/128x128Tiles.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/16x16Tiles.gif
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/Act3.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/Backgrounds.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/CollisionMasks.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/StageConfig.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/128x128Tiles.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/16x16Tiles.gif
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/Act3.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/Backgrounds.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/CollisionMasks.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/StageConfig.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/128x128Tiles.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/16x16Tiles.gif
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/Act3.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/Backgrounds.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/CollisionMasks.bin
-add /ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/StageConfig.bin
-add /ModConfig/BossRush/jpbossnamesadd /raw/text/text_common_en.pac
-add /ModConfig/BossRush/noringsadd /Sonic1u/Data/Scripts/Mission/NoRingMode.txt
-add /ModConfig/BossRush/norings/Sonic2u/Data/Scripts/Mission/NoRingMode.txt
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR1_3K_AIZ2/Scene2.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR2_3K_HCZ2/Scene2.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR3_3K_MGZ/Scene2.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR4_3K_CNZ/Scene2.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR5_3K_ICZ2/Scene1.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR6_3K_LBZ2/Scene1.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR7_3K_MHZ/Scene2.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR8_3K_FBZ/Scene2.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR9_3K_SPZ2/Scene1.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRA_3K_LRZB/Scene1.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRB_3K_DEZB/Scene1.bin
-add /ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRC_3K_SSZ2/Scene1.bin
-add /ModConfig/BossRush/norings/SonicCDu/Data/Scripts/Mission/NoRingMode.txt
-add /ModConfig/DebugControl3Kadd /Sonic1u/Data/Scripts/Global/DebugMode.txt
-add /ModConfig/DebugControl3K/Sonic2u/Data/Scripts/Global/DebugMode.txt
-add /ModConfig/DebugControl3K/SonicCDu/Data/Scripts/Global/TouchControls.txt
-add /ModConfig/DebugCoords3Kadd /Sonic1u/Data/Scripts/Global/HUD.txt
-add /ModConfig/DebugCoords3K/Sonic2u/Data/Scripts/Global/HUD.txt
-add /ModConfig/DebugCoords3K/SonicCDu/Data/Scripts/Global/HUD.txt
-add /ModConfig/Default/dummy.txt
-add /ModConfig/GGNamesadd /raw/text/text_gamegear_en.pac
-add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/DAGarden/Objects.gif
-add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/Global/Items3.gif
-add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/R7/Objects3.gif
-add /ModConfig/MetalEyes/SonicCDu/Data/Sprites/Secrets/SecretImages.gif
-add /ModConfig/UltrafixLogoadd /raw/ui/menu_title_logo.dds
-add /ModConfig/UltrafixLogoadd /raw/ui/ui_mainmenu_de.pac
-add /ModConfig/UltrafixLogoadd /raw/ui/ui_mainmenu_en.pac
-add /ModConfig/UltrafixLogoadd /raw/ui/ui_mainmenu_es.pac
-add /ModConfig/UltrafixLogoadd /raw/ui/ui_mainmenu_fr.pac
-add /ModConfig/UltrafixLogoadd /raw/ui/ui_mainmenu_it.pac
-add /ModConfig/UltrafixLogoadd /raw/ui/ui_mainmenu_ja.pac
-add /ModConfig/UltrafixLogoadd /raw/ui/ui_mainmenu_ko.pac
-add /ModConfig/MenuChars/s1add /raw/ui/ui_gamestage.pac
-add /ModConfig/MenuChars/s1add /raw/ui/ui_mainmenu.pac
-add /ModConfig/MenuChars/s2add /raw/ui/ui_gamestage.pac
-add /ModConfig/MenuChars/s2add /raw/ui/ui_mainmenu.pac
-add /ModConfig/MenuChars/s3kadd /raw/ui/ui_gamestage.pac
-add /ModConfig/MenuChars/s3kadd /raw/ui/ui_mainmenu.pac
-add /ModConfig/MenuChars/scdadd /raw/ui/ui_gamestage.pac
-add /ModConfig/MenuChars/scdadd /raw/ui/ui_mainmenu.pac
-add /raw/dlc/dlc2/ui/ui_museum_chara_dlc2.pac
-add /raw/text/text_gamegear_en.pac
-add /raw/text/text_museum_en.pac
-add /raw/ui/ui_museum_item_texture_l_art16.pac
-add /raw/ui/ui_museum_item_texture_l_art17.pac
-add /raw/ui/ui_museum_item_texture_l_art18.pac
-add /Sonic1u/Data/Animations/Amy.ani
-add /Sonic1u/Data/Animations/Knuckles.ani
-add /Sonic1u/Data/Animations/Sonic.ani
-add /Sonic1u/Data/Animations/SuperSonic.ani
-add /Sonic1u/Data/Animations/Tails.ani
-add /Sonic1u/Data/Animations/TailsSS.ani
-add /Sonic1u/Data/Game/GameConfig.bin
-add /Sonic1u/Data/Palettes/AnLvlSel.act
-add /Sonic1u/Data/Palettes/LevelSel.act
-add /Sonic1u/Data/Palettes/LZ_WaterPal.act
-add /Sonic1u/Data/Palettes/SBZ3_Pal.act
-add /Sonic1u/Data/Palettes/SBZ3_WaterPal.act
-add /Sonic1u/Data/Scripts/Credits/CreditsControl.txt
-add /Sonic1u/Data/Scripts/Ending/EndingControl.txt
-add /Sonic1u/Data/Scripts/Ending/EndingPose.txt
-add /Sonic1u/Data/Scripts/Ending/EndingSetup.txt
-add /Sonic1u/Data/Scripts/Enemies/NewtronFly.txt
-add /Sonic1u/Data/Scripts/GHZ/BreakWall.txt
-add /Sonic1u/Data/Scripts/GHZ/CheckeredBall.txt
-add /Sonic1u/Data/Scripts/GHZ/Eggman.txt
-add /Sonic1u/Data/Scripts/Global/ActFinish.txt
-add /Sonic1u/Data/Scripts/Global/AnimalPrison.txt
-add /Sonic1u/Data/Scripts/Global/BrokenMonitor.txt
-add /Sonic1u/Data/Scripts/Global/DebugMode.txt
-add /Sonic1u/Data/Scripts/Global/DustPuff.txt
-add /Sonic1u/Data/Scripts/Global/HUD.txt
-add /Sonic1u/Data/Scripts/Global/InstaShield.txt
-add /Sonic1u/Data/Scripts/Global/Invincibility.txt
-add /Sonic1u/Data/Scripts/Global/InvisibleBlock.txt
-add /Sonic1u/Data/Scripts/Global/LightningShield.txt
-add /Sonic1u/Data/Scripts/Global/LoseRing.txt
-add /Sonic1u/Data/Scripts/Global/Monitor.txt
-add /Sonic1u/Data/Scripts/Global/ObjectScore.txt
-add /Sonic1u/Data/Scripts/Global/SpecialRing.txt
-add /Sonic1u/Data/Scripts/Global/StageSetup.txt
-add /Sonic1u/Data/Scripts/Global/TailsStuck.txt
-add /Sonic1u/Data/Scripts/Global/TitleCard.txt
-add /Sonic1u/Data/Scripts/LevelSelect/BGAnimation.txt
-add /Sonic1u/Data/Scripts/LevelSelect/ConfigScreen.txt
-add /Sonic1u/Data/Scripts/LevelSelect/MenuControl.txt
-add /Sonic1u/Data/Scripts/LZ/AirBubble.txt
-add /Sonic1u/Data/Scripts/LZ/Cork.txt
-add /Sonic1u/Data/Scripts/LZ/Cork.txt.bak
-add /Sonic1u/Data/Scripts/LZ/LZSetup.txt
-add /Sonic1u/Data/Scripts/LZ/SBZ3Exit.txt
-add /Sonic1u/Data/Scripts/Mission/MissionBlock.txt
-add /Sonic1u/Data/Scripts/Mission/NoRingMode.txt
-add /Sonic1u/Data/Scripts/Mission/PullUpWater.txt
-add /Sonic1u/Data/Scripts/Mission/WatchLoseRing.txt
-add /Sonic1u/Data/Scripts/MZ/BreakBlock.txt
-add /Sonic1u/Data/Scripts/MZ/Eggman.txt
-add /Sonic1u/Data/Scripts/MZ/HCrusher.txt
-add /Sonic1u/Data/Scripts/MZ/MZSetup.txt
-add /Sonic1u/Data/Scripts/MZ/PushBlock.txt
-add /Sonic1u/Data/Scripts/Players/PlayerObject.txt
-add /Sonic1u/Data/Scripts/Players/TailsObject.txt
-add /Sonic1u/Data/Scripts/SBZ/FZEggman.txt
-add /Sonic1u/Data/Scripts/SBZ/TubeCover.txt
-add /Sonic1u/Data/Scripts/SLZ/BreakWall.txt
-add /Sonic1u/Data/Scripts/SLZ/SeeSaw.txt
-add /Sonic1u/Data/Scripts/Special/DebugMode.txt
-add /Sonic1u/Data/Scripts/Special/PlayerObject.txt
-add /Sonic1u/Data/Scripts/Special/SpecialFinish.txt
-add /Sonic1u/Data/Scripts/SYZ/Bumper.txt
-add /Sonic1u/Data/Scripts/SYZ/SYZSetup.txt
-add /Sonic1u/Data/Scripts/Title/LevelSelect.txt
-add /Sonic1u/Data/Scripts/Title/Logo.txt
-add /Sonic1u/Data/Scripts/Title/Sega.txt
-add /Sonic1u/Data/Scripts/Title/SonicTeam.txt
-add /Sonic1u/Data/Scripts/Title/Start.txt
-add /Sonic1u/Data/Sprites/Ending/Objects.gif
-add /Sonic1u/Data/Sprites/Global/Display.gif
-add /Sonic1u/Data/Sprites/Global/Dust.gif
-add /Sonic1u/Data/Sprites/Global/Eggman.gif
-add /Sonic1u/Data/Sprites/Global/Items.gif
-add /Sonic1u/Data/Sprites/Global/Items2.gif
-add /Sonic1u/Data/Sprites/Global/Items3.gif
-add /Sonic1u/Data/Sprites/Global/ItemsA.gif
-add /Sonic1u/Data/Sprites/LevelSelect/Icons.gif
-add /Sonic1u/Data/Sprites/LevelSelect/Text.gif
-add /Sonic1u/Data/Sprites/LevelSelect/TextOG.gif
-add /Sonic1u/Data/Sprites/Players/Amy1.gif
-add /Sonic1u/Data/Sprites/Players/Amy2.gif
-add /Sonic1u/Data/Sprites/Players/Amy3.gif
-add /Sonic1u/Data/Sprites/Players/KTE1.gif
-add /Sonic1u/Data/Sprites/Players/KTE2.gif
-add /Sonic1u/Data/Sprites/Players/KTE3.gif
-add /Sonic1u/Data/Sprites/Players/Sonic1.gif
-add /Sonic1u/Data/Sprites/Players/Sonic2.gif
-add /Sonic1u/Data/Sprites/Players/Sonic3.gif
-add /Sonic1u/Data/Sprites/Players/Tails1.gif
-add /Sonic1u/Data/Sprites/Players/Tails2.gif
-add /Sonic1u/Data/Sprites/SBZ/Objects.gif
-add /Sonic1u/Data/Sprites/Special/Objects.gif
-add /Sonic1u/Data/Sprites/Title/SonicTeam.gif
-add /Sonic1u/Data/Sprites/Title/Title.gif
-add /Sonic1u/Data/Stages/BR1Zone01/128x128Tiles.bin
-add /Sonic1u/Data/Stages/BR1Zone01/16x16Tiles.gif
-add /Sonic1u/Data/Stages/BR1Zone01/Act3.bin
-add /Sonic1u/Data/Stages/BR1Zone01/StageConfig.bin
-add /Sonic1u/Data/Stages/BR2Zone02/Act3.bin
-add /Sonic1u/Data/Stages/BR2Zone02/StageConfig.bin
-add /Sonic1u/Data/Stages/BR3Zone03/Act3.bin
-add /Sonic1u/Data/Stages/BR3Zone03/StageConfig.bin
-add /Sonic1u/Data/Stages/BR4Zone04/Act3.bin
-add /Sonic1u/Data/Stages/BR4Zone04/StageConfig.bin
-add /Sonic1u/Data/Stages/BR5Zone05/Act3.bin
-add /Sonic1u/Data/Stages/BR5Zone05/StageConfig.bin
-add /Sonic1u/Data/Stages/BR6Zone06/Act5.bin
-add /Sonic1u/Data/Stages/BR6Zone06/StageConfig.bin
-add /Sonic1u/Data/Stages/Ending/16x16Tiles.gif
-add /Sonic1u/Data/Stages/LSelect/16x16Tiles.gif
-add /Sonic1u/Data/Stages/LSelect/StageConfig.bin
-add /Sonic1u/Data/Stages/Title/StageConfig.bin
-add /Sonic1u/Data/Stages/Zone01/128x128Tiles.bin
-add /Sonic1u/Data/Stages/Zone01/16x16Tiles.gif
-add /Sonic1u/Data/Stages/Zone01/Act1.bin
-add /Sonic1u/Data/Stages/Zone01/Act2.bin
-add /Sonic1u/Data/Stages/Zone01/Act3.bin
-add /Sonic1u/Data/Stages/Zone01/CollisionMasks.bin
-add /Sonic1u/Data/Stages/Zone01/StageConfig.bin
-add /Sonic1u/Data/Stages/Zone04/Act1.bin
-add /Sonic1u/Data/Stages/Zone06/Act5.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/128x128Tiles.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/16x16Tiles.gif
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/Act3.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/Backgrounds.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/CollisionMasks.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR1R13C/StageConfig.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/128x128Tiles.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/16x16Tiles.gif
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/Act3.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/Backgrounds.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/CollisionMasks.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR2R33C/StageConfig.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/128x128Tiles.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/16x16Tiles.gif
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/Act3.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/Backgrounds.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/CollisionMasks.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR3R43C/StageConfig.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/128x128Tiles.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/16x16Tiles.gif
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/Act3.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/Backgrounds.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/CollisionMasks.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR4R53C/StageConfig.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/128x128Tiles.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/16x16Tiles.gif
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/Act3.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/Backgrounds.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/CollisionMasks.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR5R63C/StageConfig.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/128x128Tiles.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/16x16Tiles.gif
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/Act3.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/Backgrounds.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/CollisionMasks.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR6R73C/StageConfig.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/128x128Tiles.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/16x16Tiles.gif
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/Act3.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/Backgrounds.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/CollisionMasks.bin
+add ModConfig/BossRush/badfuture/SonicCDu/Data/Stages/BR7R83C/StageConfig.bin
+add ModConfig/BossRush/jpbossnamesadd raw/text/text_common_en.pac
+add ModConfig/BossRush/noringsadd Sonic1u/Data/Scripts/Mission/NoRingMode.txt
+add ModConfig/BossRush/norings/Sonic2u/Data/Scripts/Mission/NoRingMode.txt
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR1_3K_AIZ2/Scene2.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR2_3K_HCZ2/Scene2.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR3_3K_MGZ/Scene2.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR4_3K_CNZ/Scene2.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR5_3K_ICZ2/Scene1.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR6_3K_LBZ2/Scene1.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR7_3K_MHZ/Scene2.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR8_3K_FBZ/Scene2.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BR9_3K_SPZ2/Scene1.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRA_3K_LRZB/Scene1.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRB_3K_DEZB/Scene1.bin
+add ModConfig/BossRush/norings/Sonic3ku/Data/Stages/BRC_3K_SSZ2/Scene1.bin
+add ModConfig/BossRush/norings/SonicCDu/Data/Scripts/Mission/NoRingMode.txt
+add ModConfig/DebugControl3Kadd Sonic1u/Data/Scripts/Global/DebugMode.txt
+add ModConfig/DebugControl3K/Sonic2u/Data/Scripts/Global/DebugMode.txt
+add ModConfig/DebugControl3K/SonicCDu/Data/Scripts/Global/TouchControls.txt
+add ModConfig/DebugCoords3Kadd Sonic1u/Data/Scripts/Global/HUD.txt
+add ModConfig/DebugCoords3K/Sonic2u/Data/Scripts/Global/HUD.txt
+add ModConfig/DebugCoords3K/SonicCDu/Data/Scripts/Global/HUD.txt
+add ModConfig/Default/dummy.txt
+add ModConfig/GGNamesadd raw/text/text_gamegear_en.pac
+add ModConfig/MetalEyes/SonicCDu/Data/Sprites/DAGarden/Objects.gif
+add ModConfig/MetalEyes/SonicCDu/Data/Sprites/Global/Items3.gif
+add ModConfig/MetalEyes/SonicCDu/Data/Sprites/R7/Objects3.gif
+add ModConfig/MetalEyes/SonicCDu/Data/Sprites/Secrets/SecretImages.gif
+add ModConfig/UltrafixLogoadd raw/ui/menu_title_logo.dds
+add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_de.pac
+add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_en.pac
+add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_es.pac
+add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_fr.pac
+add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_it.pac
+add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_ja.pac
+add ModConfig/UltrafixLogoadd raw/ui/ui_mainmenu_ko.pac
+add ModConfig/MenuChars/s1add raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/s1add raw/ui/ui_mainmenu.pac
+add ModConfig/MenuChars/s2add raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/s2add raw/ui/ui_mainmenu.pac
+add ModConfig/MenuChars/s3kadd raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/s3kadd raw/ui/ui_mainmenu.pac
+add ModConfig/MenuChars/scdadd raw/ui/ui_gamestage.pac
+add ModConfig/MenuChars/scdadd raw/ui/ui_mainmenu.pac
+add raw/dlc/dlc2/ui/ui_museum_chara_dlc2.pac
+add raw/text/text_gamegear_en.pac
+add raw/text/text_museum_en.pac
+add raw/ui/ui_museum_item_texture_l_art16.pac
+add raw/ui/ui_museum_item_texture_l_art17.pac
+add raw/ui/ui_museum_item_texture_l_art18.pac
+add Sonic1u/Data/Animations/Amy.ani
+add Sonic1u/Data/Animations/Knuckles.ani
+add Sonic1u/Data/Animations/Sonic.ani
+add Sonic1u/Data/Animations/SuperSonic.ani
+add Sonic1u/Data/Animations/Tails.ani
+add Sonic1u/Data/Animations/TailsSS.ani
+add Sonic1u/Data/Game/GameConfig.bin
+add Sonic1u/Data/Palettes/AnLvlSel.act
+add Sonic1u/Data/Palettes/LevelSel.act
+add Sonic1u/Data/Palettes/LZ_WaterPal.act
+add Sonic1u/Data/Palettes/SBZ3_Pal.act
+add Sonic1u/Data/Palettes/SBZ3_WaterPal.act
+add Sonic1u/Data/Scripts/Credits/CreditsControl.txt
+add Sonic1u/Data/Scripts/Ending/EndingControl.txt
+add Sonic1u/Data/Scripts/Ending/EndingPose.txt
+add Sonic1u/Data/Scripts/Ending/EndingSetup.txt
+add Sonic1u/Data/Scripts/Enemies/NewtronFly.txt
+add Sonic1u/Data/Scripts/GHZ/BreakWall.txt
+add Sonic1u/Data/Scripts/GHZ/CheckeredBall.txt
+add Sonic1u/Data/Scripts/GHZ/Eggman.txt
+add Sonic1u/Data/Scripts/Global/ActFinish.txt
+add Sonic1u/Data/Scripts/Global/AnimalPrison.txt
+add Sonic1u/Data/Scripts/Global/BrokenMonitor.txt
+add Sonic1u/Data/Scripts/Global/DebugMode.txt
+add Sonic1u/Data/Scripts/Global/DustPuff.txt
+add Sonic1u/Data/Scripts/Global/HUD.txt
+add Sonic1u/Data/Scripts/Global/InstaShield.txt
+add Sonic1u/Data/Scripts/Global/Invincibility.txt
+add Sonic1u/Data/Scripts/Global/InvisibleBlock.txt
+add Sonic1u/Data/Scripts/Global/LightningShield.txt
+add Sonic1u/Data/Scripts/Global/LoseRing.txt
+add Sonic1u/Data/Scripts/Global/Monitor.txt
+add Sonic1u/Data/Scripts/Global/ObjectScore.txt
+add Sonic1u/Data/Scripts/Global/SpecialRing.txt
+add Sonic1u/Data/Scripts/Global/StageSetup.txt
+add Sonic1u/Data/Scripts/Global/TailsStuck.txt
+add Sonic1u/Data/Scripts/Global/TitleCard.txt
+add Sonic1u/Data/Scripts/LevelSelect/BGAnimation.txt
+add Sonic1u/Data/Scripts/LevelSelect/ConfigScreen.txt
+add Sonic1u/Data/Scripts/LevelSelect/MenuControl.txt
+add Sonic1u/Data/Scripts/LZ/AirBubble.txt
+add Sonic1u/Data/Scripts/LZ/Cork.txt
+add Sonic1u/Data/Scripts/LZ/Cork.txt.bak
+add Sonic1u/Data/Scripts/LZ/LZSetup.txt
+add Sonic1u/Data/Scripts/LZ/SBZ3Exit.txt
+add Sonic1u/Data/Scripts/Mission/MissionBlock.txt
+add Sonic1u/Data/Scripts/Mission/NoRingMode.txt
+add Sonic1u/Data/Scripts/Mission/PullUpWater.txt
+add Sonic1u/Data/Scripts/Mission/WatchLoseRing.txt
+add Sonic1u/Data/Scripts/MZ/BreakBlock.txt
+add Sonic1u/Data/Scripts/MZ/Eggman.txt
+add Sonic1u/Data/Scripts/MZ/HCrusher.txt
+add Sonic1u/Data/Scripts/MZ/MZSetup.txt
+add Sonic1u/Data/Scripts/MZ/PushBlock.txt
+add Sonic1u/Data/Scripts/Players/PlayerObject.txt
+add Sonic1u/Data/Scripts/Players/TailsObject.txt
+add Sonic1u/Data/Scripts/SBZ/FZEggman.txt
+add Sonic1u/Data/Scripts/SBZ/TubeCover.txt
+add Sonic1u/Data/Scripts/SLZ/BreakWall.txt
+add Sonic1u/Data/Scripts/SLZ/SeeSaw.txt
+add Sonic1u/Data/Scripts/Special/DebugMode.txt
+add Sonic1u/Data/Scripts/Special/PlayerObject.txt
+add Sonic1u/Data/Scripts/Special/SpecialFinish.txt
+add Sonic1u/Data/Scripts/SYZ/Bumper.txt
+add Sonic1u/Data/Scripts/SYZ/SYZSetup.txt
+add Sonic1u/Data/Scripts/Title/LevelSelect.txt
+add Sonic1u/Data/Scripts/Title/Logo.txt
+add Sonic1u/Data/Scripts/Title/Sega.txt
+add Sonic1u/Data/Scripts/Title/SonicTeam.txt
+add Sonic1u/Data/Scripts/Title/Start.txt
+add Sonic1u/Data/Sprites/Ending/Objects.gif
+add Sonic1u/Data/Sprites/Global/Display.gif
+add Sonic1u/Data/Sprites/Global/Dust.gif
+add Sonic1u/Data/Sprites/Global/Eggman.gif
+add Sonic1u/Data/Sprites/Global/Items.gif
+add Sonic1u/Data/Sprites/Global/Items2.gif
+add Sonic1u/Data/Sprites/Global/Items3.gif
+add Sonic1u/Data/Sprites/Global/ItemsA.gif
+add Sonic1u/Data/Sprites/LevelSelect/Icons.gif
+add Sonic1u/Data/Sprites/LevelSelect/Text.gif
+add Sonic1u/Data/Sprites/LevelSelect/TextOG.gif
+add Sonic1u/Data/Sprites/Players/Amy1.gif
+add Sonic1u/Data/Sprites/Players/Amy2.gif
+add Sonic1u/Data/Sprites/Players/Amy3.gif
+add Sonic1u/Data/Sprites/Players/KTE1.gif
+add Sonic1u/Data/Sprites/Players/KTE2.gif
+add Sonic1u/Data/Sprites/Players/KTE3.gif
+add Sonic1u/Data/Sprites/Players/Sonic1.gif
+add Sonic1u/Data/Sprites/Players/Sonic2.gif
+add Sonic1u/Data/Sprites/Players/Sonic3.gif
+add Sonic1u/Data/Sprites/Players/Tails1.gif
+add Sonic1u/Data/Sprites/Players/Tails2.gif
+add Sonic1u/Data/Sprites/SBZ/Objects.gif
+add Sonic1u/Data/Sprites/Special/Objects.gif
+add Sonic1u/Data/Sprites/Title/SonicTeam.gif
+add Sonic1u/Data/Sprites/Title/Title.gif
+add Sonic1u/Data/Stages/BR1Zone01/128x128Tiles.bin
+add Sonic1u/Data/Stages/BR1Zone01/16x16Tiles.gif
+add Sonic1u/Data/Stages/BR1Zone01/Act3.bin
+add Sonic1u/Data/Stages/BR1Zone01/StageConfig.bin
+add Sonic1u/Data/Stages/BR2Zone02/Act3.bin
+add Sonic1u/Data/Stages/BR2Zone02/StageConfig.bin
+add Sonic1u/Data/Stages/BR3Zone03/Act3.bin
+add Sonic1u/Data/Stages/BR3Zone03/StageConfig.bin
+add Sonic1u/Data/Stages/BR4Zone04/Act3.bin
+add Sonic1u/Data/Stages/BR4Zone04/StageConfig.bin
+add Sonic1u/Data/Stages/BR5Zone05/Act3.bin
+add Sonic1u/Data/Stages/BR5Zone05/StageConfig.bin
+add Sonic1u/Data/Stages/BR6Zone06/Act5.bin
+add Sonic1u/Data/Stages/BR6Zone06/StageConfig.bin
+add Sonic1u/Data/Stages/Ending/16x16Tiles.gif
+add Sonic1u/Data/Stages/LSelect/16x16Tiles.gif
+add Sonic1u/Data/Stages/LSelect/StageConfig.bin
+add Sonic1u/Data/Stages/Title/StageConfig.bin
+add Sonic1u/Data/Stages/Zone01/128x128Tiles.bin
+add Sonic1u/Data/Stages/Zone01/16x16Tiles.gif
+add Sonic1u/Data/Stages/Zone01/Act1.bin
+add Sonic1u/Data/Stages/Zone01/Act2.bin
+add Sonic1u/Data/Stages/Zone01/Act3.bin
+add Sonic1u/Data/Stages/Zone01/CollisionMasks.bin
+add Sonic1u/Data/Stages/Zone01/StageConfig.bin
+add Sonic1u/Data/Stages/Zone04/Act1.bin
+add Sonic1u/Data/Stages/Zone06/Act5.bin
+add mod.ini
