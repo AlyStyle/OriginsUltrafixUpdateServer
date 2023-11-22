@@ -708,6 +708,7 @@ add ModConfig/Default/dummy.txt
 add ModConfig/GGNames/raw/text/text_gamegear_en.pac
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/DAGarden/Objects.gif
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/Global/Items3.gif
+add ModConfig/MetalEyes/SonicCDu/Data/Sprites/R3/Objects.gif
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/R7/Objects3.gif
 add ModConfig/MetalEyes/SonicCDu/Data/Sprites/Secrets/SecretImages.gif
 add ModConfig/UltrafixLogo/raw/ui/menu_title_logo.dds
