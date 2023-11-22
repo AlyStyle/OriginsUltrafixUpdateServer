@@ -245,7 +245,7 @@
 #### CHARACTER
 - Overhauled the drop dash to function like the one from Mania/3K
 - Fixed Sonic's drop dash not animating when debug mode is active
-- Fixed the drop dash being unusable when invincible/super while Sonic had an elemental shield
+- Fixed the drop dash being unusable when invincible/Super while Sonic had an elemental shield
 - Fixed minor issues with Sonic's sprites
 - Fixed the insta-shield briefly disabling gravity when playing as Sonic & Tails
 - Fixed Tails' walk cycle to match his Genesis counterpart
@@ -253,7 +253,7 @@
 - Fixed Tails' dash animation taking too long to play, and not playing at all if another character was played as first
 - Fixed issues with Tails' underwater palettes
 - Tails can now turn into Super Tails
-- Knuckles new glide and water slide frames from Sonic 3 & Knuckles (Origins) have been added
+- Knuckles' new glide and water slide frames from Sonic 3 & Knuckles (Origins) have been added
 - Knuckles' "Clinging On" animation now has the correct positioning (matching CD and S3K)
 - Restored Knuckles' glide bouncing mechanic from Sonic 3
 - Restored Knuckles' ability to flip when gliding into a left-side stage boundary
@@ -412,6 +412,7 @@
 - Reworked the fix for preventing getting under the HCZ2 moving wall, removing the weird out-of-place bridge
 - Fixed Knuckles being unable to climb on the HCZ2 moving wall before it starts moving
 - Tweaked vertical boundary behavior at the end of HCZ2 to be more natural
+- Fixed an issue where the Hydrocity Zone Act 2 boss would make its bombs orange when hit
 - Rolling off the ledge at the start of MGZ1 now gives you the intended trajectory
 - Fixed the Marble Garden up & down directional signs missing a pixel in height
 - Added an intro transition for Carnival Night Zone Act 1 when playing as Amy
