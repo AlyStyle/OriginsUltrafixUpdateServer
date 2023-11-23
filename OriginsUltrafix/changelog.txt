@@ -158,6 +158,7 @@
 - Amy will now always hold her hammer out when a hammer dash is charged even if she somehow bypassed the initial hammer jump
 - There's no longer a standing frame in the looking up and down animations of Sonic, Knuckles, and Amy
 - Fixed an issue where Sonic and Amy's jump animations were out of order
+- Sonic now has his proper skidding animation.
 
 #### CLASSIC MODE
 - The spindash is now locked to the CD Spindash in Classic Mode
