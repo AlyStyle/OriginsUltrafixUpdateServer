@@ -366,6 +366,7 @@
 - Fixed results music playing repeatedly when signpost fallback timer is expired
 - Time Over text now properly appears if you have lives enabled in Anniversary Mode
 - Fixed a possible death bug with bumpers when you hit them and die at the same time
+- Fixed an issue where the SONIC RINGS text in SpecialFinish was offset incorrectly.
 
 
 ### SONIC 3 & KNUCKLES
